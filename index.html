@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batalla.php</title>
+    <style>
+        .fondo{
+            background-size: cover;
+            color: orangered;
+        }
+        .iniciar{
+            color:white;
+                background-color: black;
+                transition: background-color .5s;
+                width: 900px;
+                height: 80px;
+                font-size:x-large;
+        }
+        .iniciar:hover{
+                background-color: red;
+            }
+        .texto{
+        width: 900px;
+        height: 30px;
+        text-align: center;
+        font-size:x-large;
+        }
+    </style>
+</head>
+<body class="fondo" background="img/fondo2.jpg">
+<div>
+    <center>
+        <br><br>
+        <h1>BIENVENIDO</h1>
+        <br><br><br><br><br><br>
+        <form action="prueba.php" method="get">
+            <h3>ESCRIBE EL NOMNRE DEL JUGADOR 1</h3>
+            <input type="text" name="Jugador1" placeholder="Jugador 1" class="texto"><br><br>
+            <h3>ESCRIBE EL NOMNRE DEL JUGADOR 2</h3>
+            <input type="text" name="Jugador2" placeholder="Jugador 2" class="texto"><br><br>
+            <input type="submit" values="INICIAR" class="iniciar">
+        </form>
+    </center>
+    </body>
+</html>
